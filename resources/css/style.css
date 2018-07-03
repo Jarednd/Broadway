@@ -19,11 +19,14 @@ h1 {
 
 }
 
-nav ul {
+nav ul li a {
 	color: white;
 	font-size: 18px;
-	list-style-type: none;
 
+}
+
+nav ul {
+	list-style-type: none;
 }
 
 #process {
@@ -37,11 +40,37 @@ nav ul {
 	font-weight: bold;
 }
 
-#process h3 {
+h3 {
 	font-size: 23px;
 	font-weight: bold;
 }
 
-#process p {
+ p {
 	font-size: 14px;
+}
+
+#designed {
+	background-image: url(./../media/the-flatiron-building.png);
+}
+
+#designed h2 {
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+}
+
+#copyright {
+	font-size: 11px;
+	color: white;
+	
+}
+
+#bottom {
+	background-color: dimgray;
+	text-align: left;
+
+}
+
+#bottom a{
+	color: white;
 }
